@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    
+    <style>
+      
+       @font-face{
+           font-family: myfont;
+           src: url("fonts/gladhys.ttf");
+       }
+       @font-face{
+           font-family: myfont1;
+           src: url("fonts/jump.ttf");
+       }
+       @font-face{
+           font-family: myfont2;
+           src: url("fonts/ShadowsIntoLight-Regular.ttf");
+       }
+       .myfont1{
+           font-family: myfont1;
+       }
+       .myfont{
+           font-family: myfont;
+       }
+       .myfont2{
+           font-family: myfont2;
+       }
+       *{
+         box-sizing: border-box;
+         text-decoration: none;
+       }
+       
+       body{
+           background:black;
+       }
+       .wrapper{
+         float: left;
+         clear: both;
+         width: 100%;
+       }
+       .header{
+         float: left;
+         clear: both;
+         width: 100%;
+       }
+       .navbar{
+        padding: 30px 0px;
+       }
+       .nav-link{
+         color: gray;
+         font-size: 25px;
+         font-family: myfont2;
+         margin: 0px 10%;
+       }
+       .banner{
+         float: left;
+         clear: both;
+         width: 100%;
+         padding: 100px 0px;
+         color: white;
+       }
+       .team{
+         float: left;
+         clear: both;
+         width: 100%;
+         padding: 100px 0px;
+         background: black;
+         background: rgba(0,0,0,0.9);
+       }
+       .team-box{
+         width: 100%;
+         padding: 40px 15px;
+         text-align: center;
+         transition: 1s;
+         margin: 50px;
+       }
+       .team-box:hover{
+         background: white;
+         border-top-left-radius:70px ;
+         border-bottom-right-radius:70px ;
+
+       }
+       .team-box:hover *{
+         color: black;
+       }
+       .team-photo{
+         width: 100px;
+         height: 100px;
+         border-radius: 100px;
+       }
+       .team-name{
+         font-size: 21px;
+         color: white;
+         margin: 20px;
+       }
+       .team-post{
+         font-family: myfont;
+         font-size: 18px;
+         margin: 0px;
+         color: lavender;
+
+       }
+       .partner{
+        float: left;
+         clear: both;
+         width: 100%;
+         padding: 50px 0px;
+        background: black;
+       }
+       .partner-photo{
+         margin: 50px;
+         padding: 0px 10px;
+        height: 194px;
+        width: 259px;
+        filter: grayscale(100%);
+        transition: 1s;
+      
+       }
+       .partner-section:hover .partner-photo{
+         filter: blur(10px) grayscale(0%); 
+       }
+       .partner-section .partner-photo:hover {
+         filter: blur(0px);
+         transform: scale(1.1);
+       }
+       .work{
+        float: left;
+         clear: both;
+         width: 100%;
+         padding: 100px 0px;
+        background: rgba(0,0,0,0.7);
+       }
+       .work-box{
+         width: 100%;
+         height: 550px;
+         margin-top: 50px;
+         background-size: 100% auto;
+         background-position: top;
+         position: top;
+         transition: 1s;
+       }
+       .work-box:hover{
+         background-position: bottom;
+       }.footer{
+         float: left;
+         clear: both;
+         width: 100%;
+        padding: 100px 0px;
+
+        }
+        .form-inp ,.form-btn{
+          width: 100%;
+          font-size: 20px;
+          background: transparent;
+          border: none;
+          padding: 10px 25px;
+          box-shadow: inset-2px -2px 2px white;
+          border-radius: 100px;
+          box-shadow: inset -2px -2px 2px black;
+          margin-top: 10px;
+        }
+        .copy-right{
+          float: left;
+         clear: both;
+         width: 100%;
+        padding: 30px 0px;
+        background-color: black;
+        color: aliceblue; 
+        }
+        
+    </style>
+    
+
+    
+  </head>
+  <body >
+    <div class="wrapper">
+        <section class="header">
+          <div class="navbar navbar-expand-lg">
+            <div class="container fluid">
+                <a href="#">
+                    <h1 class="text-danger myfont2">teaching web</h1>
+                </a>
+                <button class="navbar-toggler btn btn-danger" data-toggle="collapse" data-toggle="collapse" data-target="#menu">Menu</button>
+                <div class="collapse navbar-collapse" id="menu">
+                  <span class="mr-auto"></span>
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Partner</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Porfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="banner">
+          <div class="container">
+            <div class="row">
+              <div class="col-6-md text-center align-self-center">
+                <p class="display-1">I<br>AM<br> <span class="text-info myfont1" width=350>WEB DESIGNER</span> </p>
+              </div>
+              <div class="col-6-md ">
+                <img src="img/637650e69afa6ce887938de467d5f50e.jpg" class="img-fluid mx-auto d-block " width="350" > 
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="team">
+          <div class="container">
+            <h1 class="myfont2 text-light text-center display-4 " > Meet Our Team</h1><br><br>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="team-box">
+                  <img src="img/tim-cook.png" class="team-photo">
+                  <h1 class="team-name">TIM JEORGE</h1>
+                  <h1 class="team-post">ceo </h1>
+                  <p class="team-detail">lorem ipsum dolor sit amet, consecteture adipisicing elit, set do eiusmod tempore incididunt... </p>
+                </div>  
+              </div>
+              <div class="col-md-4">
+                <div class="team-box">
+                  <img src="img/194930030_Jessie-Adolph-Head-Shot817455089_t1070_h1f55c157cfeeea15d508ff555526b82f330d5b7a.jpg" class="team-photo">
+                  <h1 class="team-name">Mike Jessy</h1>
+                  <h1 class="team-post">Web Developer</h1>
+                  <p class="team-detail">lorem ipsum dolor sit amet, consecteture adipisicing elit, set do eiusmod tempore incididunt... </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-box">
+                  <img src="img/jesse-garfield-19870306-allfamous.org-7.jpg" class="team-photo">
+                  <h1 class="team-name">Tony Stuart</h1>
+                  <h1 class="team-post">Juniyer Designer</h1>
+                  <p class="team-detail">lorem ipsum dolor sit amet, consecteture adipisicing elit, set do eiusmod tempore incididunt... </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section class="Partner">
+          <div class="container">
+            <h1 class="text-center myfont2 text-light display-4" >
+              Social partner
+            </h1>
+            <div class="row partner-section">
+              <div class="col-md-4"><img src="img/images.png" class="mx-auto d-blog partner-photo"></div>
+              <div class="col-md-4"><img src="img/81f716eb-cb32-42b3-81f8-20023c14b690.png" class="mx-auto d-blog partner-photo"  height="100px"></div>
+              <div class="col-md-4"><img src="img/download.png" class="mx-auto d-blog partner-photo"></div>
+              
+            </div>
+          </div>
+        </section>
+        <section class="work">
+          <div class="container">
+            <h1 class="myfont2 text-light display-4" >Our Work</h1><br>
+            <p class="myfont text-light">How do you celebrate team accomplishments when you are all self isolating in your homes? This is how you do it! Simply Swap in your brand colors and personalize with a message just for your team or department. This video was created using scenes from the Video Resume template.</p>
+            <div class="row">
+              
+              <div class="col-md-6"><a href="#"><div class="work-box"><img src="img/1586938133_aOZlV5_One_Up_Your_Career_2.png" width="100%" ></div></div>
+              <div class="col-md-6"><a href="#"><div class="work-box"><img src="img/35211-spotlights-annual-report-2018-covers.jpg" width="100%"></div></div>
+            </div> 
+          </div>
+        </section>
+        <section class="footer bg-info">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3776843.6765065407!2d71.31966105!3d22.4168315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1595583020611!5m2!1sen!2sin" width="700" height="500" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0" style="border: 0;border-radius: 10px;"></iframe></div>
+              <div class="col-md-4 offset-1">
+                <form class="myform">
+                  <h1 class="myfont2 text-light">Contact-us </h1>
+                  <input type="text" class="form-inp" placeholder="user name">
+                  <input type="email" class="form-inp" placeholder="email id">
+                  <input type="password" class="form-inp" placeholder="password">
+                  <input type="button" value="..Submit.." class="form-btn text-center " >
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section  class="copy-right">
+          <div class="container">
+            <span class="myfont2">&copy;Urvashi Suthar | All copyrights are reserved</span>
+            <span class="float-right myfont2">Term and Conditions</span>
+          </div>
+        </section>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
